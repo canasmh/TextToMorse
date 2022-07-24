@@ -48,3 +48,21 @@ char_to_morse = {
     "9": "----.",
     "10": "-----"
 }
+
+
+def convert_to_morse(input_text):
+    converted_text = ""
+    for char in input_text:
+        try:
+            char_to_morse[char]
+        except KeyError:
+            if char == " ":
+                converted_text += "\n"
+            else:
+                continue
+        else:
+            converted_text += char_to_morse[char]
+
+        converted_text += " "
+
+    return converted_text
