@@ -21,7 +21,7 @@ while converting:
             converting = False
             break
         else:
-            print(f"Invalid option: '{go_again}'. Please type 'y' or 'n'\n")
+            print(f"Invalid option: '{go_again}'.\n\n Please type 'y' or 'n'\n")
 
-print("Exiting Now... Thank you.")
+print("Exiting...")
 

@@ -3,9 +3,9 @@ Welcome to TextToMorse!
 
 The easy-to-use python converter that converts a string of characters into Morse code.
 
-Morse code is composed of dots '.' and dashes '-'. Dots have a time value of one unit whereas dashes have a value of
-three units. Space between parts of the same letter is one unit, space between letters is three units, and space 
-between words is seven units. 
+Morse code is composed of dots '.' and dashes '-'. Dots have a value of one unit whereas dashes have a value of
+three units. Parts of the same letter are spaced by one unit, letters are spaced by three units, and words are spaced by
+seven units. 
 
 For purposes of this script, letters are separated by a three empty characters (i.e., "   ") and words are separated by
 a new line. There is no spaces between parts of the same letter\n"""
